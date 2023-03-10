@@ -1,3 +1,5 @@
+//list of vars used
+
 <var         	 = 	Formula	
 introWords	     = 	"Drawing controllor now active, do use go to layer 3 and use button B"	//	notes
 wacomDatabase	 = 	(see wacomDatabase sheet)	//	
