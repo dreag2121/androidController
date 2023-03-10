@@ -16,8 +16,8 @@ function shoe(id, desc, price){
  const Sports = new shoe(004, shoes, 500)
 
 function showRandom() {
-  var random = shoe[Math.floor(Math.random() * myObject.catalogo.length)];
-  document.querySelector('line').innerHTML = shoe.name + "<br>" + "$" + shoe.price + ".00";
+  var random = shoe[(Math.random() * shoe.shoeID)];
+  document.querySelector('.line').innerHTML = shoe.shoeName + "<br>" + "$" + shoe.shoePrice + ".00";
 }
   </script>
 
