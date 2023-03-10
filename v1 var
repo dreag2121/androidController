@@ -1,0 +1,16 @@
+<var         	 = 	Formula	
+introWords	     = 	"Drawing controllor now active, do use go to layer 3 and use button B"	//	notes
+wacomDatabase	 = 	(see wacomDatabase sheet)	//	
+kCode	         = 	button press	//	
+actionCode	     = 	wacomDatabase[++kCode++"L"++layerCode]	//	make the action happen
+debugMode	     = 	go to debug	//	This will allow for toast to show and tell you what buttons are showing
+layerCode	     = 	1	//	how will I select the layer?
+ButtonName	     = 	wacomDatabase["ButtonNamek"++kCode++"L"++layerCode]	//	
+ButtonCode	     = 	wacomDatabase["ButtonCodek"++kCode++"L"++layerCode]	//	
+kritaName	     = 	wacomDatabase["kritaNamek"++kCode++"L"++layerCode]	//	
+kritaShortcut	 = 	wacomDatabase["kritaShortcutk"++kCode++"L"++layerCode]	//	
+modCode	         = 	wacomDatabase["modCodek"++kCode++"L"++layerCode]	//	
+debugModeAll	 = 	"pressing "++Button Name++" which activates "++kritaName	//	
+debugModeName	 = 	kritaName	//	Maybe this one could have an active mode?
+dialog choice	 = 	["Off',"debugModeAll","debugModeName"]	//	
+helpMessage			//	This willl show a message with actions, most needed to least? maybe oddly used

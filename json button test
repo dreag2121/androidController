@@ -1,0 +1,46 @@
+<div>
+  <div id="random"></div>
+  <button onclick="showRandom()">Añadir</button>
+</div>
+
+<div>
+  <p class="line"></p>
+</div>
+
+
+var myObject = {
+  "catalogo": [{
+      "id": "001",
+      "name": "Nike",
+      "desc": "shoes",
+      "price": 500,
+    },
+    {
+      "id": "002",
+      "name": "MIKEY",
+      "desc": "shoes",
+      "price": 500,
+    },
+    {
+      "id": "003",
+      "name": "VANS",
+      "desc": "shoes",
+      "price": 500,
+    },
+    {
+      "id": "004",
+      "name": "SPORT",
+      "desc": "shoes",
+      "price": 500,
+    }
+  ]
+};
+
+function showRandom() {
+
+  var random = myObject.catalogo[Math.floor(Math.random() * myObject.catalogo.length)];
+  
+  document.querySelector('.line').innerHTML = random.name + "<br>" + "$" + random.price + ".00";
+
+}
+

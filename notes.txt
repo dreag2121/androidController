@@ -1,0 +1,96 @@
+<script>
+
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create 2 Person objects
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+
+// Add a name method to first object
+myFather.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+
+// Display full name
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.name(); 
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+//   Something that takes the kCode and turns it into keyboard code
+
+
+//chain of events in automate
+//input/key pressed (set varible = kCode>) //input from controller
+//output/key send (Keycode=wacomDaatbase[Kcode]~~Key Modifiers=modCode)//send to krita the var would be the return action for json
+///
+
+//button.kcode
+//I wonder if I jeed a dictionary to start the unput?
+
+
+////controllor input Code
+//needed for dictionary and actual input methods
+
+///Constructor function for buttonInput objects for debugging
+function kCode(name, title) //
+{
+    this.buttionName = name;
+    this.buttonTitle = title;
+  }
+
+///button object 
+myFather = new Person("John", "Doe", 50, "blue");
+96 = new kcode("A Button key", AKEYCODE_BUTTON_A) //debug function but could be extended to 
+
+//table of andriod buttons to codes
+ButtonTitle	ButtonName	ButtonCode
+AKEYCODE_BUTTON_A	A Button key	96
+AKEYCODE_BUTTON_B	B Button key	97
+AKEYCODE_BUTTON_C	C Button key	98
+AKEYCODE_BUTTON_X	X Button key	99
+AKEYCODE_BUTTON_Y	Y Button key	100
+AKEYCODE_BUTTON_Z	Z Button key	101
+AKEYCODE_BUTTON_1	Generic Game Pad Button #1	188
+AKEYCODE_BUTTON_2	Generic Game Pad Button #2	189
+AKEYCODE_BUTTON_3	Generic Game Pad Button #3	190
+AKEYCODE_BUTTON_4	Generic Game Pad Button #4	191
+AKEYCODE_BUTTON_5	Generic Game Pad Button #5	192
+AKEYCODE_BUTTON_6	Generic Game Pad Button #6	193
+AKEYCODE_BUTTON_7	Generic Game Pad Button #7	194
+AKEYCODE_BUTTON_8	Generic Game Pad Button #8	195
+AKEYCODE_BUTTON_9	Generic Game Pad Button #9	196
+AKEYCODE_BUTTON_10	Generic Game Pad Button #10	197
+
+//input from the controllor (key press)
+
+
+
+////output side
+
+
+output = kCodeOut kCodeMod
+
+////krita side
+shortcut = kritaShortcut kritaMod kritaName
+
+
+////connections
+
+
