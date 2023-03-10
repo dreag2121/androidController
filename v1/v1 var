@@ -12,5 +12,5 @@ kritaShortcut	 = 	wacomDatabase["kritaShortcutk"++kCode++"L"++layerCode]	//
 modCode	         = 	wacomDatabase["modCodek"++kCode++"L"++layerCode]	//	
 debugModeAll	 = 	"pressing "++Button Name++" which activates "++kritaName	//	
 debugModeName	 = 	kritaName	//	Maybe this one could have an active mode?
-dialog choice	 = 	["Off',"debugModeAll","debugModeName"]	//	
+dialog choice	 = 	["Off","debugModeAll","debugModeName"]	//	
 helpMessage			//	This willl show a message with actions, most needed to least? maybe oddly used

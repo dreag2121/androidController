@@ -1,0 +1,280 @@
+{
+
+controller name :["wacomeController"]
+
+ButtonName: ["AKEYCODE_BUTTON_1"]
+
+
+
+kCode:["option1"
+}
+//Mar 9
+
+//chain of events in automate
+key pressed (kCode) //input from controller
+
+key send (??)//send to krita the var would be the return action for json
+//button.kcode
+
+//I wonder if I jeed a dictionary to start the unput?
+
+
+////controllor input Code
+//needed for dictionary and actual input methods
+
+//json dictionary
+button = actionName kCodeName kCode
+
+
+//input from the controllor (key press)
+
+
+
+////output side
+
+
+output = kCodeOut kCodeMod
+
+////krita side
+shortcut = kritaShortcut kritaMod kritaName
+
+
+////connections
+
+
+
+//notes
+
+how do return information?
+
+button.kcode
+
+
+
+
+
+////examples
+
+//json example from automate
+//the var
+v=cargoManifest
+//the input argument
+{cargoManifest}Parcel 112358-{idx}:\nLength: {val[length"]} cm\nWidth: {val["width"]} cm\nHeight: {val["height"]} cm\nMass: {val["mass"]} kg\n\n"
+
+
+
+
+button = {
+person = {name:"John", age:31, city:"New York"};
+
+// returns John
+person.name;
+
+
+
+{"employees":[
+{ "firstName":"John", "lastName":"Doe" },
+{ "firstName":"Anna", "lastName":"Smith" },
+{ "firstName":"Peter", "lastName":"Jones" }
+]}
+
+//books
+
+book {
+title: 'Moby Dick',
+author: {
+name: 'Herman Melville',
+born: 1819
+}
+}
+//option 2 books
+author {
+_id: ObjectId(1),
+name: 'Herman Melville',
+born: 1819
+}
+
+book {
+_id: ObjectId(55),
+title: 'Moby Dick',
+author: ObjectId(1)
+}
+
+//colors
+
+{
+colors: [
+{
+color: "black",
+category: "hue",
+type: "primary",
+code: {
+rgba: [255,255,255,1],
+hex: "#000"
+}
+},
+{
+color: "white",
+category: "value",
+code: {
+rgba: [0,0,0,1],
+hex: "#FFF"
+}
+},
+{
+color: "red",
+category: "hue",
+type: "primary",
+code: {
+rgba: [255,0,0,1],
+hex: "#FF0"
+}
+},
+{
+color: "blue",
+category: "hue",
+type: "primary",
+code: {
+rgba: [0,0,255,1],
+hex: "#00F"
+}
+},
+{
+color: "yellow",
+category: "hue",
+type: "primary",
+code: {
+rgba: [255,255,0,1],
+hex: "#FF0"
+}
+},
+{
+color: "green",
+category: "hue",
+type: "secondary",
+code: {
+rgba: [0,255,0,1],
+hex: "#0F0"
+}
+},
+]
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Object Constructors</h2>
+
+<p id="demo"></p>
+
+<script>
+
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+this.firstName = first;
+this.lastName = last;
+this.age = age;
+this.eyeColor = eye;
+}
+
+// Create 2 Person objects
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+
+// Add a name method to first object
+myFather.name = function() {
+return this.firstName + " " + this.lastName;
+};
+
+// Display full name
+document.getElementById("demo").innerHTML =
+My father is  + myFather.name();
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

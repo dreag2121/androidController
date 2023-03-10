@@ -1,0 +1,37 @@
+Modifiers,,,,,
+Ctrl+,2000,Ctrl+,Ctrl+,Ctrl+,
+Ctrl + Shift,2040,,Ctrl + 40,Ctrl + Shift,
+Ctrl + Alt,2010,2000 Alt,Ctrl + Alt,Ctrl + 10,
+Ctrl+Shift+Alt,2050,Ctrl+Shift+Alt,Ctrl+40+Alt,Ctrl+Shift+10,
+Shift,40,Shift,40,Shift,
+Shift + Alt,50,Shift + Alt,40 + Alt,Shift + 10,
+Alt,10,Alt,Alt,10,
+,,0,,,
+,,0,,,
+,,0,,,
+Ctrl +,2000,,,,
+Shift,40,2040,,,
+Alt,10,2010,,,
+,,,,,[{
+,,,,,"""array"":[1,2,3],""boolean"":true,""color"":""gold"",""null"":null,""number"":123,""object"": {"
+,,,,,"""a"":""b"",""c"":""d"""
+,,,,,"},""string"":""Hello World"""
+,,,,,}]
+,,,,,
+,,,,,
+,,,,,"[{""button"": ""generic 1"",""keyCode"": 188, ""action"":188, ""layer"":1,""desctiption"":""Control Selecter""}"
+,,,,,",{""button"": ""generic 2"",""keyCode"": 189, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 3"",""keyCode"": 190, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+Macros ,,,,,",{""button"": ""generic 4"",""keyCode"": 191, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 5"",""keyCode"": 192, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 6"",""keyCode"": 193, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 7"",""keyCode"": 194, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 8"",""keyCode"": 195, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,",{""button"": ""generic 9"",""keyCode"": 196, ""action"":188, ""layer"":1,""desctiption"":""Open""}"
+,,,,,]
+,,,,,
+,,,,,"(A, B, C, X, Y, Z)"
+,,,,,"96, 97, 98, 99, 100, 101"
+,,,,,
+,,,,,(Generic button 1-10)
+,,,,,"188, 189, 190, 191, 192, 193, 194, 195, 196, 197"

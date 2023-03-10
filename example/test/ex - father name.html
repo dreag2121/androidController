@@ -1,9 +1,11 @@
 <html>
 <body>
 
-
 <p id="demo"></p>
-<p id="button"></p>
+<BR>
+<p id="debug96show"></p>
+
+
 <script>
 
 // Constructor function for Person objects
@@ -16,29 +18,36 @@ function Person(first, last, age, eye) {
 //pluging in new code
 function kCode(name, title) 
 {
-    this.buttionName = name;
+    this.buttonName = name;
     this.buttonTitle = title;
   }
 
 // Create 2 Person objects
 const myFather = new Person("John", "Doe", 50, "blue");
 const myMother = new Person("Sally", "Rally", 48, "green");
-
-
 //creating my objects
-96 = new kcode("A Button key", AKEYCODE_BUTTON_A) //debug function //But maybe this could be extended?
+const debug96 = new kCode("A Button key", "AKEYCODE_BUTTON_A") //debug function //But maybe this could be extended?
  
-
-
 // Add a name method to first object
 myFather.name = function() {
   return this.firstName + " " + this.lastName;
 };
 
+//adding naming to debug 96
+debug96.debug = function() {
+  return this.buttonName
+}
+
+
 // Display full name
 document.getElementById("demo").innerHTML =
 "My father is " + myFather.name(); 
+
+//creating my first debug
+document.getElementById("debug96show").innerHTML = 
+"The button you have pressed is " + debug96.buttonName();
 </script>
 
 </body>
 </html>
+

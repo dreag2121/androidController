@@ -1,0 +1,63 @@
+openSlot,ERR_404,
+Wacom layer1,N/A,
+Wacom layer2,N/A,
+Wacom layer3,N/A,
+Escape Key,Esc,
+DebugMode,debugMode,
+Show Buttons,showButtons,
+map new ubbtons,,
+,,
+,,
+,,
+,,
+EditLayerMetaData,Ctrl+Alt+Shift+N,2
+KisAssistantTool,W,2
+KritaShape/KisToolBrush,Q,2
+activateNextLayer,page_up,2
+activatePreviousLayer,page_down,2
+add_new_colorize_mask,none,2
+brushslider1,Y,2
+brushslider2,none,2
+decrease_brush_size,[,2
+edit_redo,Z,2
+edit_undo,A,2
+erase_action,E,2
+file_new,Ctrl+N,2
+file_open,Ctrl+O,2
+file_save,Ctrl+S,2
+file_save_as,Ctrl+Shift+S,2
+image_properties,Ctrl+F3,2
+imagesize,Ctrl+Alt+I,2
+increase_brush_size,],2
+layer_properties,F3,2
+mirror_canvas_around_cursor,Alt+M,2
+next_favorite_preset,`,2
+options_configure,7,2
+previous_favorite_preset,Ctrl+`,2
+save_incremental_backup,F4,2
+save_incremental_version,Ctrl+Alt+S,2
+select_all,Ctrl+A,2
+set_no_brush_smoothing,1,2
+set_simple_brush_smoothing,Ctrl+1,2
+set_stabilizer_brush_smoothing,2,2
+set_weighted_brush_smoothing,Ctrl+2,2
+settings_active_author,none,2
+shift_brush_color_clockwise,none,2
+shift_brush_color_counter_clockwise,none,2
+show_brush_editor,F5,2
+show_brush_presets,F6,2
+show_color_history,H,2
+show_color_selector,Shift+I,2
+show_common_colors,U,2
+show_minimal_shade_selector,Shift+N,2
+show_mypaint_shade_selector,Shift+M,2
+show_snap_options_popup,Shift+S,2
+toggle_assistant,Ctrl+Z,2
+toggle_zoom_to_fit,Ctrl+Shift+Alt+0,2
+view_ruler,none,2
+view_show_canvas_only,Tab,2
+view_toggle_assistant_previews,Ctrl+W,2
+view_toggle_painting_assistants,Shift+W,2
+view_toggle_reference_images,none,2
+workspaces,N,2
+zoom_to_100pct,Ctrl+0,2
