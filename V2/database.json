@@ -1,0 +1,357 @@
+
+codeDatabase[
+    L1 :{
+        {"ActionName":"N/A", "Modifiers":""}
+        {"ActionName":"Q", "Modifiers":""}
+        {"ActionName":"`", "Modifiers":""}
+        {"ActionName":"`", "Modifiers":"Ctrl+"}
+        {"ActionName":"Tab", "Modifiers":""}
+        {"ActionName":"E", "Modifiers":""}
+        {"ActionName":"A", "Modifiers":""}
+        {"ActionName":"Z", "Modifiers":""}
+        {"ActionName":"Z", "Modifiers":"Ctrl+"}
+        {"ActionName":"W", "Modifiers":""}
+        {"ActionName":"1", "Modifiers":""}
+        {"ActionName":"[", "Modifiers":""}
+        {"ActionName":"F6", "Modifiers":""}
+        {"ActionName":"2", "Modifiers":"Ctrl+"}
+        {"ActionName":"]", "Modifiers":""}
+        {"ActionName":"2", "Modifiers":""}
+    }
+    L2 :{
+        {"ActionName":"page_up", "Modifiers":""}
+        {"ActionName":"0", "Modifiers":"Ctrl+"}
+        {"ActionName":"0", "Modifiers":"Ctrl+Shift+Alt+"}
+        {"ActionName":"page_down", "Modifiers":""}
+        {"ActionName":"Esc", "Modifiers":""}
+        {"ActionName":"none", "Modifiers":""}
+        {"ActionName":"7", "Modifiers":""}
+        {"ActionName":"H", "Modifiers":""}
+        {"ActionName":"W", "Modifiers":"Ctrl+"}
+        {"ActionName":"N", "Modifiers":""}
+        {"ActionName":"I", "Modifiers":"Shift+"}
+        {"ActionName":"W", "Modifiers":"Shift+"}
+        {"ActionName":"ERR_404", "Modifiers":""}
+        {"ActionName":"U", "Modifiers":""}
+        {"ActionName":"none", "Modifiers":""}
+    }
+    L3 :{
+        {"ActionName":"debugMode", "Modifiers":""}
+        {"ActionName":"ERR_404", "Modifiers":""}
+        {"ActionName":"ERR_404", "Modifiers":""}
+        {"ActionName":"F3", "Modifiers":""}
+        {"ActionName":"Esc", "Modifiers":""}
+        {"ActionName":"N", "Modifiers":"Ctrl+Alt+Shift+"}
+        {"ActionName":"N", "Modifiers":"Ctrl+"}
+        {"ActionName":"F5", "Modifiers":""}
+        {"ActionName":"F3", "Modifiers":"Ctrl+"}
+        {"ActionName":"O", "Modifiers":"Ctrl+"}
+        {"ActionName":"ERR_404", "Modifiers":""}
+        {"ActionName":"I", "Modifiers":"Ctrl+Alt+"}
+        {"ActionName":"S", "Modifiers":"Ctrl+"}
+        {"ActionName":"showButtons", "Modifiers":""}
+        {"ActionName":"S", "Modifiers":"Ctrl+Shift+"}
+    }
+]
+
+
+staticDatabase : [
+
+modCodes : {
+    {"modifier":"Ctrl+", "modifierCode":2000}
+    {"modifier":"Ctrl + Shift", "modifierCode":2040}
+    {"modifier":"Ctrl + Alt", "modifierCode":2010}
+    {"modifier":"Ctrl+Shift+Alt", "modifierCode":2050}
+    {"modifier":"Shift", "modifierCode":40}
+    {"modifier":"Shift + Alt", "modifierCode":50}
+    {"modifier":"Alt", "modifierCode":10}
+}
+
+kCode: {
+        {"actionName" : "Unknown key code.", "none" : "none", "keyCodeName" : "AKEYCODE_UNKNOWN", "keyCode" : "0"}
+        {"actionName" : "Soft Left key", "none" : "Usually situated below the display on phones and used as a multi-function  feature key for selecting a software defined function shown on the bottom left  of the display.", "keyCodeName" : "AKEYCODE_SOFT_LEFT", "keyCode" : "1"}
+        {"actionName" : "Soft Right key", "none" : "Usually situated below the display on phones and used as a multi-function  feature key for selecting a software defined function shown on the bottom right  of the display.", "keyCodeName" : "AKEYCODE_SOFT_RIGHT", "keyCode" : "2"}
+        {"actionName" : "Home key", "none" : "This key is handled by the framework and is never delivered to applications.", "keyCodeName" : "AKEYCODE_HOME", "keyCode" : "3"}
+        {"actionName" : "Back key.", "none" : "none", "keyCodeName" : "AKEYCODE_BACK", "keyCode" : "4"}
+        {"actionName" : "Call key.", "none" : "none", "keyCodeName" : "AKEYCODE_CALL", "keyCode" : "5"}
+        {"actionName" : "End Call key.", "none" : "none", "keyCodeName" : "AKEYCODE_ENDCALL", "keyCode" : "6"}
+        {"actionName" : "0' key.", "none" : "none", "keyCodeName" : "AKEYCODE_0", "keyCode" : "7"}
+        {"actionName" : "1' key.", "none" : "none", "keyCodeName" : "AKEYCODE_1", "keyCode" : "8"}
+        {"actionName" : "2' key.", "none" : "none", "keyCodeName" : "AKEYCODE_2", "keyCode" : "9"}
+        {"actionName" : "3' key.", "none" : "none", "keyCodeName" : "AKEYCODE_3", "keyCode" : "10"}
+        {"actionName" : "4' key.", "none" : "none", "keyCodeName" : "AKEYCODE_4", "keyCode" : "11"}
+        {"actionName" : "5' key.", "none" : "none", "keyCodeName" : "AKEYCODE_5", "keyCode" : "12"}
+        {"actionName" : "6' key.", "none" : "none", "keyCodeName" : "AKEYCODE_6", "keyCode" : "13"}
+        {"actionName" : "7' key.", "none" : "none", "keyCodeName" : "AKEYCODE_7", "keyCode" : "14"}
+        {"actionName" : "8' key.", "none" : "none", "keyCodeName" : "AKEYCODE_8", "keyCode" : "15"}
+        {"actionName" : "9' key.", "none" : "none", "keyCodeName" : "AKEYCODE_9", "keyCode" : "16"}
+        {"actionName" : "key.", "none" : "none", "keyCodeName" : "AKEYCODE_STAR", "keyCode" : "17"}
+        {"actionName" : "#' key.", "none" : "none", "keyCodeName" : "AKEYCODE_POUND", "keyCode" : "18"}
+        {"actionName" : "Directional Pad Up key", "none" : "May also be synthesized from trackball motions.", "keyCodeName" : "AKEYCODE_DPAD_UP", "keyCode" : "19"}
+        {"actionName" : "Directional Pad Down key", "none" : "May also be synthesized from trackball motions.", "keyCodeName" : "AKEYCODE_DPAD_DOWN", "keyCode" : "20"}
+        {"actionName" : "Directional Pad Left key", "none" : "May also be synthesized from trackball motions.", "keyCodeName" : "AKEYCODE_DPAD_LEFT", "keyCode" : "21"}
+        {"actionName" : "Directional Pad Right key", "none" : "May also be synthesized from trackball motions.", "keyCodeName" : "AKEYCODE_DPAD_RIGHT", "keyCode" : "22"}
+        {"actionName" : "Directional Pad Center key", "none" : "May also be synthesized from trackball motions.", "keyCodeName" : "AKEYCODE_DPAD_CENTER", "keyCode" : "23"}
+        {"actionName" : "Volume Up key", "none" : "Adjusts the speaker volume up.", "keyCodeName" : "AKEYCODE_VOLUME_UP", "keyCode" : "24"}
+        {"actionName" : "Volume Down key", "none" : "Adjusts the speaker volume down.", "keyCodeName" : "AKEYCODE_VOLUME_DOWN", "keyCode" : "25"}
+        {"actionName" : "Power key.", "none" : "none", "keyCodeName" : "AKEYCODE_POWER", "keyCode" : "26"}
+        {"actionName" : "Camera key", "none" : "Used to launch a camera application or take pictures.", "keyCodeName" : "AKEYCODE_CAMERA", "keyCode" : "27"}
+        {"actionName" : "Clear key.", "none" : "none", "keyCodeName" : "AKEYCODE_CLEAR", "keyCode" : "28"}
+        {"actionName" : "A' key.", "none" : "none", "keyCodeName" : "AKEYCODE_A", "keyCode" : "29"}
+        {"actionName" : "B' key.", "none" : "none", "keyCodeName" : "AKEYCODE_B", "keyCode" : "30"}
+        {"actionName" : "C' key.", "none" : "none", "keyCodeName" : "AKEYCODE_C", "keyCode" : "31"}
+        {"actionName" : "D' key.", "none" : "none", "keyCodeName" : "AKEYCODE_D", "keyCode" : "32"}
+        {"actionName" : "E' key.", "none" : "none", "keyCodeName" : "AKEYCODE_E", "keyCode" : "33"}
+        {"actionName" : "F' key.", "none" : "none", "keyCodeName" : "AKEYCODE_F", "keyCode" : "34"}
+        {"actionName" : "G' key.", "none" : "none", "keyCodeName" : "AKEYCODE_G", "keyCode" : "35"}
+        {"actionName" : "H' key.", "none" : "none", "keyCodeName" : "AKEYCODE_H", "keyCode" : "36"}
+        {"actionName" : "I' key.", "none" : "none", "keyCodeName" : "AKEYCODE_I", "keyCode" : "37"}
+        {"actionName" : "J' key.", "none" : "none", "keyCodeName" : "AKEYCODE_J", "keyCode" : "38"}
+        {"actionName" : "K' key.", "none" : "none", "keyCodeName" : "AKEYCODE_K", "keyCode" : "39"}
+        {"actionName" : "L' key.", "none" : "none", "keyCodeName" : "AKEYCODE_L", "keyCode" : "40"}
+        {"actionName" : "M' key.", "none" : "none", "keyCodeName" : "AKEYCODE_M", "keyCode" : "41"}
+        {"actionName" : "N' key.", "none" : "none", "keyCodeName" : "AKEYCODE_N", "keyCode" : "42"}
+        {"actionName" : "O' key.", "none" : "none", "keyCodeName" : "AKEYCODE_O", "keyCode" : "43"}
+        {"actionName" : "P' key.", "none" : "none", "keyCodeName" : "AKEYCODE_P", "keyCode" : "44"}
+        {"actionName" : "Q' key.", "none" : "none", "keyCodeName" : "AKEYCODE_Q", "keyCode" : "45"}
+        {"actionName" : "R' key.", "none" : "none", "keyCodeName" : "AKEYCODE_R", "keyCode" : "46"}
+        {"actionName" : "S' key.", "none" : "none", "keyCodeName" : "AKEYCODE_S", "keyCode" : "47"}
+        {"actionName" : "T' key.", "none" : "none", "keyCodeName" : "AKEYCODE_T", "keyCode" : "48"}
+        {"actionName" : "U' key.", "none" : "none", "keyCodeName" : "AKEYCODE_U", "keyCode" : "49"}
+        {"actionName" : "V' key.", "none" : "none", "keyCodeName" : "AKEYCODE_V", "keyCode" : "50"}
+        {"actionName" : "W' key.", "none" : "none", "keyCodeName" : "AKEYCODE_W", "keyCode" : "51"}
+        {"actionName" : "X' key.", "none" : "none", "keyCodeName" : "AKEYCODE_X", "keyCode" : "52"}
+        {"actionName" : "Y' key.", "none" : "none", "keyCodeName" : "AKEYCODE_Y", "keyCode" : "53"}
+        {"actionName" : "Z' key.", "none" : "none", "keyCodeName" : "AKEYCODE_Z", "keyCode" : "54"}
+        {"actionName" : ",' key.", "none" : "none", "keyCodeName" : "AKEYCODE_COMMA", "keyCode" : "55"}
+        {"actionName" : ".' key.", "none" : "none", "keyCodeName" : "AKEYCODE_PERIOD", "keyCode" : "56"}
+        {"actionName" : "Left Alt modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_ALT_LEFT", "keyCode" : "57"}
+        {"actionName" : "Right Alt modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_ALT_RIGHT", "keyCode" : "58"}
+        {"actionName" : "Left Shift modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_SHIFT_LEFT", "keyCode" : "59"}
+        {"actionName" : "Right Shift modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_SHIFT_RIGHT", "keyCode" : "60"}
+        {"actionName" : "Tab' key.", "none" : "none", "keyCodeName" : "AKEYCODE_TAB", "keyCode" : "61"}
+        {"actionName" : "Space key.", "none" : "none", "keyCodeName" : "AKEYCODE_SPACE", "keyCode" : "62"}
+        {"actionName" : "Symbol modifier key", "none" : "Used to enter alternate symbols.", "keyCodeName" : "AKEYCODE_SYM", "keyCode" : "63"}
+        {"actionName" : "Explorer special function key", "none" : "Used to launch a browser application.", "keyCodeName" : "AKEYCODE_EXPLORER", "keyCode" : "64"}
+        {"actionName" : "Envelope special function key", "none" : "Used to launch a mail application.", "keyCodeName" : "AKEYCODE_ENVELOPE", "keyCode" : "65"}
+        {"actionName" : "Enter key.", "none" : "none", "keyCodeName" : "AKEYCODE_ENTER", "keyCode" : "66"}
+        {"actionName" : "Backspace key", "none" : "Deletes characters before the insertion point, unlike {@link AKEYCODE_FORWARD_DEL}.", "keyCodeName" : "AKEYCODE_DEL", "keyCode" : "67"}
+        {"actionName" : "`' key.", "none" : "none", "keyCodeName" : "AKEYCODE_GRAVE", "keyCode" : "68"}
+        {"actionName" : "-'.", "none" : "none", "keyCodeName" : "AKEYCODE_MINUS", "keyCode" : "69"}
+        {"actionName" : "=' key.", "none" : "none", "keyCodeName" : "AKEYCODE_EQUALS", "keyCode" : "70"}
+        {"actionName" : "[' key.", "none" : "none", "keyCodeName" : "AKEYCODE_LEFT_BRACKET", "keyCode" : "71"}
+        {"actionName" : "]' key.", "none" : "none", "keyCodeName" : "AKEYCODE_RIGHT_BRACKET", "keyCode" : "72"}
+        {"actionName" : "\' key.", "none" : "none", "keyCodeName" : "AKEYCODE_BACKSLASH", "keyCode" : "73"}
+        {"actionName" : ";' key.", "none" : "none", "keyCodeName" : "AKEYCODE_SEMICOLON", "keyCode" : "74"}
+        {"actionName" : " (apostrophe) key.", "none" : "none", "keyCodeName" : "AKEYCODE_APOSTROPHE", "keyCode" : "75"}
+        {"actionName" : "/' key.", "none" : "none", "keyCodeName" : "AKEYCODE_SLASH", "keyCode" : "76"}
+        {"actionName" : "@' key.", "none" : "none", "keyCodeName" : "AKEYCODE_AT", "keyCode" : "77"}
+        {"actionName" : "Number modifier key", "none" : "Used to enter numeric symbols.  This key is not {@link AKEYCODE_NUM_LOCK}; it is more like {@link AKEYCODE_ALT_LEFT}.", "keyCodeName" : "AKEYCODE_NUM", "keyCode" : "78"}
+        {"actionName" : "Headset Hook key", "none" : "Used to hang up calls and stop media.", "keyCodeName" : "AKEYCODE_HEADSETHOOK", "keyCode" : "79"}
+        {"actionName" : "Camera Focus key", "none" : "Used to focus the camera.", "keyCodeName" : "AKEYCODE_FOCUS", "keyCode" : "80"}
+        {"actionName" : "+' key.", "none" : "none", "keyCodeName" : "AKEYCODE_PLUS", "keyCode" : "81"}
+        {"actionName" : "Menu key.", "none" : "none", "keyCodeName" : "AKEYCODE_MENU", "keyCode" : "82"}
+        {"actionName" : "Notification key.", "none" : "none", "keyCodeName" : "AKEYCODE_NOTIFICATION", "keyCode" : "83"}
+        {"actionName" : "Search key.", "none" : "none", "keyCodeName" : "AKEYCODE_SEARCH", "keyCode" : "84"}
+        {"actionName" : "Play/Pause media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_PLAY_PAUSE", "keyCode" : "85"}
+        {"actionName" : "Stop media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_STOP", "keyCode" : "86"}
+        {"actionName" : "Play Next media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_NEXT", "keyCode" : "87"}
+        {"actionName" : "Play Previous media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_PREVIOUS", "keyCode" : "88"}
+        {"actionName" : "Rewind media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_REWIND", "keyCode" : "89"}
+        {"actionName" : "Fast Forward media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_FAST_FORWARD", "keyCode" : "90"}
+        {"actionName" : "Mute key", "none" : "Mutes the microphone, unlike {@link AKEYCODE_VOLUME_MUTE}.", "keyCodeName" : "AKEYCODE_MUTE", "keyCode" : "91"}
+        {"actionName" : "Page Up key.", "none" : "none", "keyCodeName" : "AKEYCODE_PAGE_UP", "keyCode" : "92"}
+        {"actionName" : "Page Down key.", "none" : "none", "keyCodeName" : "AKEYCODE_PAGE_DOWN", "keyCode" : "93"}
+        {"actionName" : "Picture Symbols modifier key", "none" : "Used to switch symbol sets (Emoji, Kao-moji).", "keyCodeName" : "AKEYCODE_PICTSYMBOLS", "keyCode" : "94"}
+        {"actionName" : "Switch Charset modifier key", "none" : "Used to switch character sets (Kanji, Katakana).", "keyCodeName" : "AKEYCODE_SWITCH_CHARSET", "keyCode" : "95"}
+        {"actionName" : "A Button key", "none" : "On a game controller, the A button should be either the button labeled A  or the first button on the bottom row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_A", "keyCode" : "96"}
+        {"actionName" : "B Button key", "none" : "On a game controller, the B button should be either the button labeled B  or the second button on the bottom row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_B", "keyCode" : "97"}
+        {"actionName" : "C Button key", "none" : "On a game controller, the C button should be either the button labeled C  or the third button on the bottom row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_C", "keyCode" : "98"}
+        {"actionName" : "X Button key", "none" : "On a game controller, the X button should be either the button labeled X  or the first button on the upper row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_X", "keyCode" : "99"}
+        {"actionName" : "Y Button key", "none" : "On a game controller, the Y button should be either the button labeled Y  or the second button on the upper row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_Y", "keyCode" : "100"}
+        {"actionName" : "Z Button key", "none" : "On a game controller, the Z button should be either the button labeled Z  or the third button on the upper row of controller buttons.", "keyCodeName" : "AKEYCODE_BUTTON_Z", "keyCode" : "101"}
+        {"actionName" : "L1 Button key", "none" : "On a game controller, the L1 button should be either the button labeled L1 (or L)  or the top left trigger button.", "keyCodeName" : "AKEYCODE_BUTTON_L1", "keyCode" : "102"}
+        {"actionName" : "R1 Button key", "none" : "On a game controller, the R1 button should be either the button labeled R1 (or R)  or the top right trigger button.", "keyCodeName" : "AKEYCODE_BUTTON_R1", "keyCode" : "103"}
+        {"actionName" : "L2 Button key", "none" : "On a game controller, the L2 button should be either the button labeled L2  or the bottom left trigger button.", "keyCodeName" : "AKEYCODE_BUTTON_L2", "keyCode" : "104"}
+        {"actionName" : "R2 Button key", "none" : "On a game controller, the R2 button should be either the button labeled R2  or the bottom right trigger button.", "keyCodeName" : "AKEYCODE_BUTTON_R2", "keyCode" : "105"}
+        {"actionName" : "Left Thumb Button key", "none" : "On a game controller, the left thumb button indicates that the left (or only)  joystick is pressed.", "keyCodeName" : "AKEYCODE_BUTTON_THUMBL", "keyCode" : "106"}
+        {"actionName" : "Right Thumb Button key", "none" : "On a game controller, the right thumb button indicates that the right  joystick is pressed.", "keyCodeName" : "AKEYCODE_BUTTON_THUMBR", "keyCode" : "107"}
+        {"actionName" : "Start Button key", "none" : "On a game controller, the button labeled Start.", "keyCodeName" : "AKEYCODE_BUTTON_START", "keyCode" : "108"}
+        {"actionName" : "Select Button key", "none" : "On a game controller, the button labeled Select.", "keyCodeName" : "AKEYCODE_BUTTON_SELECT", "keyCode" : "109"}
+        {"actionName" : "Mode Button key", "none" : "On a game controller, the button labeled Mode.", "keyCodeName" : "AKEYCODE_BUTTON_MODE", "keyCode" : "110"}
+        {"actionName" : "Esc' key.", "none" : "none", "keyCodeName" : "AKEYCODE_ESCAPE", "keyCode" : "111"}
+        {"actionName" : "Forward Delete key", "none" : "Deletes characters ahead of the insertion point, unlike {@link AKEYCODE_DEL}.", "keyCodeName" : "AKEYCODE_FORWARD_DEL", "keyCode" : "112"}
+        {"actionName" : "Left Control modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_CTRL_LEFT", "keyCode" : "113"}
+        {"actionName" : "Right Control modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_CTRL_RIGHT", "keyCode" : "114"}
+        {"actionName" : "Caps Lock key.", "none" : "none", "keyCodeName" : "AKEYCODE_CAPS_LOCK", "keyCode" : "115"}
+        {"actionName" : "Scroll Lock key.", "none" : "none", "keyCodeName" : "AKEYCODE_SCROLL_LOCK", "keyCode" : "116"}
+        {"actionName" : "Left Meta modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_META_LEFT", "keyCode" : "117"}
+        {"actionName" : "Right Meta modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_META_RIGHT", "keyCode" : "118"}
+        {"actionName" : "Function modifier key.", "none" : "none", "keyCodeName" : "AKEYCODE_FUNCTION", "keyCode" : "119"}
+        {"actionName" : "System Request/Print Screen key.", "none" : "none", "keyCodeName" : "AKEYCODE_SYSRQ", "keyCode" : "120"}
+        {"actionName" : "Break / Pause key.", "none" : "none", "keyCodeName" : "AKEYCODE_BREAK", "keyCode" : "121"}
+        {"actionName" : "Home Movement key", "none" : "Used for scrolling or moving the cursor around to the start of a line  or to the top of a list.", "keyCodeName" : "AKEYCODE_MOVE_HOME", "keyCode" : "122"}
+        {"actionName" : "End Movement key", "none" : "Used for scrolling or moving the cursor around to the end of a line  or to the bottom of a list.", "keyCodeName" : "AKEYCODE_MOVE_END", "keyCode" : "123"}
+        {"actionName" : "Insert key", "none" : "Toggles insert/overwrite edit mode.", "keyCodeName" : "AKEYCODE_INSERT", "keyCode" : "124"}
+        {"actionName" : "Forward key", "none" : "Navigates forward in the history stack. Complement of {@link AKEYCODE_BACK}.", "keyCodeName" : "AKEYCODE_FORWARD", "keyCode" : "125"}
+        {"actionName" : "Play media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_PLAY", "keyCode" : "126"}
+        {"actionName" : "Pause media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_PAUSE", "keyCode" : "127"}
+        {"actionName" : "Close media key", "none" : "May be used to close a CD tray, for example.", "keyCodeName" : "AKEYCODE_MEDIA_CLOSE", "keyCode" : "128"}
+        {"actionName" : "Eject media key", "none" : "May be used to eject a CD tray, for example.", "keyCodeName" : "AKEYCODE_MEDIA_EJECT", "keyCode" : "129"}
+        {"actionName" : "Record media key.", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_RECORD", "keyCode" : "130"}
+        {"actionName" : "F1 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F1", "keyCode" : "131"}
+        {"actionName" : "F2 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F2", "keyCode" : "132"}
+        {"actionName" : "F3 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F3", "keyCode" : "133"}
+        {"actionName" : "F4 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F4", "keyCode" : "134"}
+        {"actionName" : "F5 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F5", "keyCode" : "135"}
+        {"actionName" : "F6 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F6", "keyCode" : "136"}
+        {"actionName" : "F7 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F7", "keyCode" : "137"}
+        {"actionName" : "F8 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F8", "keyCode" : "138"}
+        {"actionName" : "F9 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F9", "keyCode" : "139"}
+        {"actionName" : "F10 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F10", "keyCode" : "140"}
+        {"actionName" : "F11 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F11", "keyCode" : "141"}
+        {"actionName" : "F12 key.", "none" : "none", "keyCodeName" : "AKEYCODE_F12", "keyCode" : "142"}
+        {"actionName" : "Num Lock key", "none" : "This is the Num Lock key; it is different from {@link AKEYCODE_NUM}.  This key alters the behavior of other keys on the numeric keypad.", "keyCodeName" : "AKEYCODE_NUM_LOCK", "keyCode" : "143"}
+        {"actionName" : "Numeric keypad '0' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_0", "keyCode" : "144"}
+        {"actionName" : "Numeric keypad '1' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_1", "keyCode" : "145"}
+        {"actionName" : "Numeric keypad '2' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_2", "keyCode" : "146"}
+        {"actionName" : "Numeric keypad '3' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_3", "keyCode" : "147"}
+        {"actionName" : "Numeric keypad '4' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_4", "keyCode" : "148"}
+        {"actionName" : "Numeric keypad '5' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_5", "keyCode" : "149"}
+        {"actionName" : "Numeric keypad '6' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_6", "keyCode" : "150"}
+        {"actionName" : "Numeric keypad '7' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_7", "keyCode" : "151"}
+        {"actionName" : "Numeric keypad '8' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_8", "keyCode" : "152"}
+        {"actionName" : "Numeric keypad '9' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_9", "keyCode" : "153"}
+        {"actionName" : "Numeric keypad '/' key (for division).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_DIVIDE", "keyCode" : "154"}
+        {"actionName" : "Numeric keypad '' key (for multiplication).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_MULTIPLY", "keyCode" : "155"}
+        {"actionName" : "Numeric keypad '-' key (for subtraction).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_SUBTRACT", "keyCode" : "156"}
+        {"actionName" : "Numeric keypad '+' key (for addition).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_ADD", "keyCode" : "157"}
+        {"actionName" : "Numeric keypad '.' key (for decimals or digit grouping).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_DOT", "keyCode" : "158"}
+        {"actionName" : "Numeric keypad ',' key (for decimals or digit grouping).", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_COMMA", "keyCode" : "159"}
+        {"actionName" : "Numeric keypad Enter key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_ENTER", "keyCode" : "160"}
+        {"actionName" : "Numeric keypad '=' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_EQUALS", "keyCode" : "161"}
+        {"actionName" : "Numeric keypad '(' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_LEFT_PAREN", "keyCode" : "162"}
+        {"actionName" : "Numeric keypad ')' key.", "none" : "none", "keyCodeName" : "AKEYCODE_NUMPAD_RIGHT_PAREN", "keyCode" : "163"}
+        {"actionName" : "Volume Mute key", "none" : "Mutes the speaker, unlike {@link AKEYCODE_MUTE}.  This key should normally be implemented as a toggle such that the first press  mutes the speaker and the second press restores the original volume.", "keyCodeName" : "AKEYCODE_VOLUME_MUTE", "keyCode" : "164"}
+        {"actionName" : "Info key", "none" : "Common on TV remotes to show additional information related to what is  currently being viewed.", "keyCodeName" : "AKEYCODE_INFO", "keyCode" : "165"}
+        {"actionName" : "Channel up key", "none" : "On TV remotes, increments the television channel.", "keyCodeName" : "AKEYCODE_CHANNEL_UP", "keyCode" : "166"}
+        {"actionName" : "Channel down key", "none" : "On TV remotes, decrements the television channel.", "keyCodeName" : "AKEYCODE_CHANNEL_DOWN", "keyCode" : "167"}
+        {"actionName" : "Zoom in key.", "none" : "none", "keyCodeName" : "AKEYCODE_ZOOM_IN", "keyCode" : "168"}
+        {"actionName" : "Zoom out key.", "none" : "none", "keyCodeName" : "AKEYCODE_ZOOM_OUT", "keyCode" : "169"}
+        {"actionName" : "TV key", "none" : "On TV remotes, switches to viewing live TV.", "keyCodeName" : "AKEYCODE_TV", "keyCode" : "170"}
+        {"actionName" : "Window key", "none" : "On TV remotes, toggles picture-in-picture mode or other windowing functions.", "keyCodeName" : "AKEYCODE_WINDOW", "keyCode" : "171"}
+        {"actionName" : "Guide key", "none" : "On TV remotes, shows a programming guide.", "keyCodeName" : "AKEYCODE_GUIDE", "keyCode" : "172"}
+        {"actionName" : "DVR key", "none" : "On some TV remotes, switches to a DVR mode for recorded shows.", "keyCodeName" : "AKEYCODE_DVR", "keyCode" : "173"}
+        {"actionName" : "Bookmark key", "none" : "On some TV remotes, bookmarks content or web pages.", "keyCodeName" : "AKEYCODE_BOOKMARK", "keyCode" : "174"}
+        {"actionName" : "Toggle captions key", "none" : "Switches the mode for closed-captioning text, for example during television shows.", "keyCodeName" : "AKEYCODE_CAPTIONS", "keyCode" : "175"}
+        {"actionName" : "Settings key", "none" : "Starts the system settings activity.", "keyCodeName" : "AKEYCODE_SETTINGS", "keyCode" : "176"}
+        {"actionName" : "TV power key", "none" : "On TV remotes, toggles the power on a television screen.", "keyCodeName" : "AKEYCODE_TV_POWER", "keyCode" : "177"}
+        {"actionName" : "TV input key", "none" : "On TV remotes, switches the input on a television screen.", "keyCodeName" : "AKEYCODE_TV_INPUT", "keyCode" : "178"}
+        {"actionName" : "Set-top-box power key", "none" : "On TV remotes, toggles the power on an external Set-top-box.", "keyCodeName" : "AKEYCODE_STB_POWER", "keyCode" : "179"}
+        {"actionName" : "Set-top-box input key", "none" : "On TV remotes, switches the input mode on an external Set-top-box.", "keyCodeName" : "AKEYCODE_STB_INPUT", "keyCode" : "180"}
+        {"actionName" : "A/V Receiver power key", "none" : "On TV remotes, toggles the power on an external A/V Receiver.", "keyCodeName" : "AKEYCODE_AVR_POWER", "keyCode" : "181"}
+        {"actionName" : "A/V Receiver input key", "none" : "On TV remotes, switches the input mode on an external A/V Receiver.", "keyCodeName" : "AKEYCODE_AVR_INPUT", "keyCode" : "182"}
+        {"actionName" : "Red "programmable" key", "none" : "On TV remotes, acts as a contextual/programmable key.", "keyCodeName" : "AKEYCODE_PROG_RED", "keyCode" : "183"}
+        {"actionName" : "Green "programmable" key", "none" : "On TV remotes, actsas a contextual/programmable key.", "keyCodeName" : "AKEYCODE_PROG_GREEN", "keyCode" : "184"}
+        {"actionName" : "Yellow "programmable" key", "none" : "On TV remotes, acts as a contextual/programmable key.", "keyCodeName" : "AKEYCODE_PROG_YELLOW", "keyCode" : "185"}
+        {"actionName" : "Blue "programmable" key", "none" : "On TV remotes, acts as a contextual/programmable key.", "keyCodeName" : "AKEYCODE_PROG_BLUE", "keyCode" : "186"}
+        {"actionName" : "App switch key", "none" : "Should bring up the application switcher dialog.", "keyCodeName" : "AKEYCODE_APP_SWITCH", "keyCode" : "187"}
+        {"actionName" : "Generic Game Pad Button #1", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_1", "keyCode" : "188"}
+        {"actionName" : "Generic Game Pad Button #2", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_2", "keyCode" : "189"}
+        {"actionName" : "Generic Game Pad Button #3", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_3", "keyCode" : "190"}
+        {"actionName" : "Generic Game Pad Button #4", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_4", "keyCode" : "191"}
+        {"actionName" : "Generic Game Pad Button #5", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_5", "keyCode" : "192"}
+        {"actionName" : "Generic Game Pad Button #6", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_6", "keyCode" : "193"}
+        {"actionName" : "Generic Game Pad Button #7", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_7", "keyCode" : "194"}
+        {"actionName" : "Generic Game Pad Button #8", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_8", "keyCode" : "195"}
+        {"actionName" : "Generic Game Pad Button #9", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_9", "keyCode" : "196"}
+        {"actionName" : "Generic Game Pad Button #10", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_10", "keyCode" : "197"}
+        {"actionName" : "Generic Game Pad Button #11", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_11", "keyCode" : "198"}
+        {"actionName" : "Generic Game Pad Button #12", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_12", "keyCode" : "199"}
+        {"actionName" : "Generic Game Pad Button #13", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_13", "keyCode" : "200"}
+        {"actionName" : "Generic Game Pad Button #14", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_14", "keyCode" : "201"}
+        {"actionName" : "Generic Game Pad Button #15", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_15", "keyCode" : "202"}
+        {"actionName" : "Generic Game Pad Button #16", "none" : "none", "keyCodeName" : "AKEYCODE_BUTTON_16", "keyCode" : "203"}
+        {"actionName" : "Language Switch key", "none" : "Toggles the current input language such as switching between English and Japanese on  a QWERTY keyboard. On some devices, the same function may be performed by  pressing Shift+Spacebar.", "keyCodeName" : "AKEYCODE_LANGUAGE_SWITCH", "keyCode" : "204"}
+        {"actionName" : "Manner Mode key", "none" : "Toggles silent or vibrate mode on and off to make the device behave more politely  in certain settings such as on a crowded train. On some devices, the key may only  operate when long-pressed.", "keyCodeName" : "AKEYCODE_MANNER_MODE", "keyCode" : "205"}
+        {"actionName" : "3D Mode key", "none" : "Toggles the display between 2D and 3D mode.", "keyCodeName" : "AKEYCODE_3D_MODE", "keyCode" : "206"}
+        {"actionName" : "Contacts special function key", "none" : "Used to launch an address book application.", "keyCodeName" : "AKEYCODE_CONTACTS", "keyCode" : "207"}
+        {"actionName" : "Calendar special function key", "none" : "Used to launch a calendar application.", "keyCodeName" : "AKEYCODE_CALENDAR", "keyCode" : "208"}
+        {"actionName" : "Music special function key", "none" : "Used to launch a music player application.", "keyCodeName" : "AKEYCODE_MUSIC", "keyCode" : "209"}
+        {"actionName" : "Calculator special function key", "none" : "Used to launch a calculator application.", "keyCodeName" : "AKEYCODE_CALCULATOR", "keyCode" : "210"}
+        {"actionName" : "Japanese full-width/half-width key.", "none" : "none", "keyCodeName" : "AKEYCODE_ZENKAKU_HANKAKU", "keyCode" : "211"}
+        {"actionName" : "Japanese alphanumeric key.", "none" : "none", "keyCodeName" : "AKEYCODE_EISU", "keyCode" : "212"}
+        {"actionName" : "Japanese non-conversion key.", "none" : "none", "keyCodeName" : "AKEYCODE_MUHENKAN", "keyCode" : "213"}
+        {"actionName" : "Japanese conversion key.", "none" : "none", "keyCodeName" : "AKEYCODE_HENKAN", "keyCode" : "214"}
+        {"actionName" : "Japanese katakana/hiragana key.", "none" : "none", "keyCodeName" : "AKEYCODE_KATAKANA_HIRAGANA", "keyCode" : "215"}
+        {"actionName" : "Japanese Yen key.", "none" : "none", "keyCodeName" : "AKEYCODE_YEN", "keyCode" : "216"}
+        {"actionName" : "Japanese Ro key.", "none" : "none", "keyCodeName" : "AKEYCODE_RO", "keyCode" : "217"}
+        {"actionName" : "Japanese kana key.", "none" : "none", "keyCodeName" : "AKEYCODE_KANA", "keyCode" : "218"}
+        {"actionName" : "Assist key", "none" : "Launches the global assist activity. Not delivered to applications.", "keyCodeName" : "AKEYCODE_ASSIST", "keyCode" : "219"}
+        {"actionName" : "Brightness Down key", "none" : "Adjusts the screen brightness down.", "keyCodeName" : "AKEYCODE_BRIGHTNESS_DOWN", "keyCode" : "220"}
+        {"actionName" : "Brightness Up key", "none" : "Adjusts the screen brightness up.", "keyCodeName" : "AKEYCODE_BRIGHTNESS_UP", "keyCode" : "221"}
+        {"actionName" : "Audio Track key", "none" : "Switches the audio tracks.", "keyCodeName" : "AKEYCODE_MEDIA_AUDIO_TRACK", "keyCode" : "222"}
+        {"actionName" : "Sleep key", "none" : "Puts the device to sleep. Behaves somewhat like {@link AKEYCODE_POWER} but it  has no effect if the device is already asleep.", "keyCodeName" : "AKEYCODE_SLEEP", "keyCode" : "223"}
+        {"actionName" : "Wakeup key", "none" : "Wakes up the device. Behaves somewhat like {@link AKEYCODE_POWER} but it  has no effect if the device is already awake.", "keyCodeName" : "AKEYCODE_WAKEUP", "keyCode" : "224"}
+        {"actionName" : "Pairing key", "none" : "Initiates peripheral pairing mode. Useful for pairing remote control  devices or game controllers, especially if no other input mode is  available.", "keyCodeName" : "AKEYCODE_PAIRING", "keyCode" : "225"}
+        {"actionName" : "Media Top Menu key", "none" : "Goes to the top of media menu.", "keyCodeName" : "AKEYCODE_MEDIA_TOP_MENU", "keyCode" : "226"}
+        {"actionName" : "11' key.", "none" : "none", "keyCodeName" : "AKEYCODE_11", "keyCode" : "227"}
+        {"actionName" : "12' key.", "none" : "none", "keyCodeName" : "AKEYCODE_12", "keyCode" : "228"}
+        {"actionName" : "Last Channel key", "none" : "Goes to the last viewed channel.", "keyCodeName" : "AKEYCODE_LAST_CHANNEL", "keyCode" : "229"}
+        {"actionName" : "TV data service key", "none" : "Displays data services like weather, sports.", "keyCodeName" : "AKEYCODE_TV_DATA_SERVICE", "keyCode" : "230"}
+        {"actionName" : "Voice Assist key", "none" : "Launches the global voice assist activity. Not delivered to applications.", "keyCodeName" : "AKEYCODE_VOICE_ASSIST", "keyCode" : "231"}
+        {"actionName" : "Radio key", "none" : "Toggles TV service/Radio service.", "keyCodeName" : "AKEYCODE_TV_RADIO_SERVICE", "keyCode" : "232"}
+        {"actionName" : "Teletext key", "none" : "Displays Teletext service.", "keyCodeName" : "AKEYCODE_TV_TELETEXT", "keyCode" : "233"}
+        {"actionName" : "Number entry key", "none" : "Initiates to enter multi-digit channel nubmber when each digit key is assigned  for selecting separate channel. Corresponds to Number Entry Mode (0x1D) of CEC  User Control Code.", "keyCodeName" : "AKEYCODE_TV_NUMBER_ENTRY", "keyCode" : "234"}
+        {"actionName" : "Analog Terrestrial key", "none" : "Switches to analog terrestrial broadcast service.", "keyCodeName" : "AKEYCODE_TV_TERRESTRIAL_ANALOG", "keyCode" : "235"}
+        {"actionName" : "Digital Terrestrial key", "none" : "Switches to digital terrestrial broadcast service.", "keyCodeName" : "AKEYCODE_TV_TERRESTRIAL_DIGITAL", "keyCode" : "236"}
+        {"actionName" : "Satellite key", "none" : "Switches to digital satellite broadcast service.", "keyCodeName" : "AKEYCODE_TV_SATELLITE", "keyCode" : "237"}
+        {"actionName" : "BS key", "none" : "Switches to BS digital satellite broadcasting service available in Japan.", "keyCodeName" : "AKEYCODE_TV_SATELLITE_BS", "keyCode" : "238"}
+        {"actionName" : "CS key", "none" : "Switches to CS digital satellite broadcasting service available in Japan.", "keyCodeName" : "AKEYCODE_TV_SATELLITE_CS", "keyCode" : "239"}
+        {"actionName" : "BS/CS key", "none" : "Toggles between BS and CS digital satellite services.", "keyCodeName" : "AKEYCODE_TV_SATELLITE_SERVICE", "keyCode" : "240"}
+        {"actionName" : "Toggle Network key", "none" : "Toggles selecting broacast services.", "keyCodeName" : "AKEYCODE_TV_NETWORK", "keyCode" : "241"}
+        {"actionName" : "Antenna/Cable key", "none" : "Toggles broadcast input source between antenna and cable.", "keyCodeName" : "AKEYCODE_TV_ANTENNA_CABLE", "keyCode" : "242"}
+        {"actionName" : "HDMI #1 key", "none" : "Switches to HDMI input #1.", "keyCodeName" : "AKEYCODE_TV_INPUT_HDMI_1", "keyCode" : "243"}
+        {"actionName" : "HDMI #2 key", "none" : "Switches to HDMI input #2.", "keyCodeName" : "AKEYCODE_TV_INPUT_HDMI_2", "keyCode" : "244"}
+        {"actionName" : "HDMI #3 key", "none" : "Switches to HDMI input #3.", "keyCodeName" : "AKEYCODE_TV_INPUT_HDMI_3", "keyCode" : "245"}
+        {"actionName" : "HDMI #4 key", "none" : "Switches to HDMI input #4.", "keyCodeName" : "AKEYCODE_TV_INPUT_HDMI_4", "keyCode" : "246"}
+        {"actionName" : "Composite #1 key", "none" : "Switches to composite video input #1.", "keyCodeName" : "AKEYCODE_TV_INPUT_COMPOSITE_1", "keyCode" : "247"}
+        {"actionName" : "Composite #2 key", "none" : "Switches to composite video input #2.", "keyCodeName" : "AKEYCODE_TV_INPUT_COMPOSITE_2", "keyCode" : "248"}
+        {"actionName" : "Component #1 key", "none" : "Switches to component video input #1.", "keyCodeName" : "AKEYCODE_TV_INPUT_COMPONENT_1", "keyCode" : "249"}
+        {"actionName" : "Component #2 key", "none" : "Switches to component video input #2.", "keyCodeName" : "AKEYCODE_TV_INPUT_COMPONENT_2", "keyCode" : "250"}
+        {"actionName" : "VGA #1 key", "none" : "Switches to VGA (analog RGB) input #1.", "keyCodeName" : "AKEYCODE_TV_INPUT_VGA_1", "keyCode" : "251"}
+        {"actionName" : "Audio description key", "none" : "Toggles audio description off/on.", "keyCodeName" : "AKEYCODE_TV_AUDIO_DESCRIPTION", "keyCode" : "252"}
+        {"actionName" : "Audio description mixing volume up key", "none" : "Louden audio description volume as compared with normal audio volume.", "keyCodeName" : "AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_UP", "keyCode" : "253"}
+        {"actionName" : "Audio description mixing volume down key", "none" : "Lessen audio description volume as compared with normal audio volume.", "keyCodeName" : "AKEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN", "keyCode" : "254"}
+        {"actionName" : "Zoom mode key", "none" : "Changes Zoom mode (Normal, Full, Zoom, Wide-zoom, etc.)", "keyCodeName" : "AKEYCODE_TV_ZOOM_MODE", "keyCode" : "255"}
+        {"actionName" : "Contents menu key", "none" : "Goes to the title list. Corresponds to Contents Menu (0x0B) of CEC User Control  Code", "keyCodeName" : "AKEYCODE_TV_CONTENTS_MENU", "keyCode" : "256"}
+        {"actionName" : "Media context menu key", "none" : "Goes to the context menu of media contents. Corresponds to Media Context-sensitive  Menu (0x11) of CEC User Control Code.", "keyCodeName" : "AKEYCODE_TV_MEDIA_CONTEXT_MENU", "keyCode" : "257"}
+        {"actionName" : "Timer programming key", "none" : "Goes to the timer recording menu. Corresponds to Timer Programming (0x54) of  CEC User Control Code.", "keyCodeName" : "AKEYCODE_TV_TIMER_PROGRAMMING", "keyCode" : "258"}
+        {"actionName" : "Help key.", "none" : "none", "keyCodeName" : "AKEYCODE_HELP", "keyCode" : "259"}
+        {"actionName" : "Primary stem key for Wear Main power/reset button on watch.", "none" : "none", "keyCodeName" : "AKEYCODE_STEM_PRIMARY", "keyCode" : "264"}
+        {"actionName" : "Generic stem key 1 for Wear", "none" : "none", "keyCodeName" : "AKEYCODE_STEM_1", "keyCode" : "265"}
+        {"actionName" : "Generic stem key 2 for Wear", "none" : "none", "keyCodeName" : "AKEYCODE_STEM_2", "keyCode" : "266"}
+        {"actionName" : "Generic stem key 3 for Wear", "none" : "none", "keyCodeName" : "AKEYCODE_STEM_3", "keyCode" : "267"}
+        {"actionName" : "Directional Pad Up-Left", "none" : "none", "keyCodeName" : "AKEYCODE_DPAD_UP_LEFT", "keyCode" : "268"}
+        {"actionName" : "Directional Pad Down-Left", "none" : "none", "keyCodeName" : "AKEYCODE_DPAD_DOWN_LEFT", "keyCode" : "269"}
+        {"actionName" : "Directional Pad Up-Right", "none" : "none", "keyCodeName" : "AKEYCODE_DPAD_UP_RIGHT", "keyCode" : "270"}
+        {"actionName" : "Directional Pad Down-Right", "none" : "none", "keyCodeName" : "AKEYCODE_DPAD_DOWN_RIGHT", "keyCode" : "271"}
+        {"actionName" : "Skip forward media key", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_SKIP_FORWARD", "keyCode" : "272"}
+        {"actionName" : "Skip backward media key", "none" : "none", "keyCodeName" : "AKEYCODE_MEDIA_SKIP_BACKWARD", "keyCode" : "273"}
+        {"actionName" : "Step forward media key", "none" : "Steps media forward one from at a time.", "keyCodeName" : "AKEYCODE_MEDIA_STEP_FORWARD", "keyCode" : "274"}
+        {"actionName" : "Step backward media key", "none" : "Steps media backward one from at a time.", "keyCodeName" : "AKEYCODE_MEDIA_STEP_BACKWARD", "keyCode" : "275"}
+        {"actionName" : "Put device to sleep unless a wakelock is held.", "none" : "none", "keyCodeName" : "AKEYCODE_SOFT_SLEEP", "keyCode" : "276"}
+        {"actionName" : "Cut key.", "none" : "none", "keyCodeName" : "AKEYCODE_CUT", "keyCode" : "277"}
+        {"actionName" : "Copy key.", "none" : "none", "keyCodeName" : "AKEYCODE_COPY", "keyCode" : "278"}
+        {"actionName" : "Paste key.", "none" : "none", "keyCodeName" : "AKEYCODE_PASTE", "keyCode" : "279"}
+        {"actionName" : "fingerprint navigation key, up.", "none" : "none", "keyCodeName" : "AKEYCODE_SYSTEM_NAVIGATION_UP", "keyCode" : "280"}
+        {"actionName" : "fingerprint navigation key, down.", "none" : "none", "keyCodeName" : "AKEYCODE_SYSTEM_NAVIGATION_DOWN", "keyCode" : "281"}
+        {"actionName" : "fingerprint navigation key, left.", "none" : "none", "keyCodeName" : "AKEYCODE_SYSTEM_NAVIGATION_LEFT", "keyCode" : "282"}
+        {"actionName" : "fingerprint navigation key, right.", "none" : "none", "keyCodeName" : "AKEYCODE_SYSTEM_NAVIGATION_RIGHT", "keyCode" : "283"}
+        {"actionName" : "all apps", "none" : "none", "keyCodeName" : "AKEYCODE_ALL_APPS", "keyCode" : "284"}
+        {"actionName" : "refresh key", "none" : "none", "keyCodeName" : "AKEYCODE_REFRESH", "keyCode" : "285"}
+        {"actionName" : "Thumbs up key", "none" : "Apps can use this to let user upvote content.", "keyCodeName" : "AKEYCODE_THUMBS_UP", "keyCode" : "286"}
+        {"actionName" : "Thumbs down key", "none" : "Apps can use this to let user downvote content.", "keyCodeName" : "AKEYCODE_THUMBS_DOWN", "keyCode" : "287"}
+        {"actionName" : "Used to switch current account that is consuming content", "none" : "May be consumed by system to switch current viewer profile.", "keyCodeName" : "AKEYCODE_PROFILE_SWITCH", "keyCode" : "288"}
+}
+]

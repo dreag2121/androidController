@@ -1,0 +1,8 @@
+modCodes : {
+    {"modifier":"Ctrl+", "modifierCode":2000}
+    {"modifier":"Ctrl + Shift", "modifierCode":2040}
+    {"modifier":"Ctrl + Alt", "modifierCode":2010}
+    {"modifier":"Ctrl+Shift+Alt", "modifierCode":2050}
+    {"modifier":"Shift", "modifierCode":40}
+    {"modifier":"Shift + Alt", "modifierCode":50}
+    {"modifier":"Alt", "modifierCode":10}
