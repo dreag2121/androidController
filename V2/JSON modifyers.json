@@ -1,3 +1,21 @@
+#V2.1
+{
+  "modCodes": {
+    "Ctrl+": 2000,
+    "Ctrl+Shift": 2040,
+    "Ctrl+Alt": 2010,
+    "Ctrl+Shift+Alt": 2050,
+    "Shift": 40,
+    "Shift+Alt": 50,
+    "Alt": 10
+  }
+}
+
+
+
+
+
+old v.2
 modCodes : {
     {"modifier":"Ctrl+", "modifierCode":2000}
     {"modifier":"Ctrl + Shift", "modifierCode":2040}
